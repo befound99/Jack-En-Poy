@@ -25,7 +25,7 @@
 }
 .game-body {
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.959),rgba(0, 0, 0, 0.719)),url(assets/images/rockpaperscissors2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.959),rgba(0, 0, 0, 0.719)), url(rockpaperscissors2.jpg);
   background-size: cover;
   align-items: center;
   padding: 3rem 0;
