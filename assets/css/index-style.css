@@ -28,7 +28,7 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.959),rgba(0, 0, 0, 0.719)), url(rockpaperscissors2.jpg);
   background-size: cover;
   align-items: center;
-  padding: 3rem 0;
+  padding-bottom: 6rem;
 }
 .game-name {
   font-family: 'Montserrat', sans-serif;
@@ -55,6 +55,13 @@
 }
 .avatar {
   font-size: 5vw;
+}
+.result {
+  width: 30vw;
+  font-size: 4vw;
+  top: calc(50% - 2vw);
+  left: calc(50% - 15vw);
+  text-align: center;
 }
 .score {
   font-size: 2vw;
