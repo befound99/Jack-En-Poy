@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/index-style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto:wght@100&display=swap');
+  </style>
+  <script src="https://kit.fontawesome.com/c6771b9339.js" crossorigin="anonymous"></script>
+  <title>Jack en Poy</title>
+</head>
+<body>
+
+  <div class="game-body d-flex column">
+    <span class="game-name text-shadow2">JACK EN POY</span>
+    <div class="game-container d-flex column">
+      <div class="game-container-header d-flex text-shadow1">
+        <div class="container-header-left d-flex column">
+          <i class="avatar fa-solid fa-user"></i>
+          <span class="score">0</span>
+        </div>
+        <div class="container-header-right d-flex column">
+          <i class="avatar fa-solid fa-robot"></i>
+          <span class="score">0</span> 
+        </div>
+      </div>
+      <div class="game-container-body d-flex relative">
+        <div class="container-body-left relative">
+          <i class="user-choice-display fa-solid fa-hand-back-fist"></i>
+          <i class="user-choice-display fa-solid fa-hand"></i>
+          <i class="user-choice-display fa-solid fa-hand-scissors fa-rotate-90"></i>
+        </div>
+        <span class="versus text-shadow1 absolute">VS</span>
+        <div class="container-body-right relative">
+          <i class="ai-choice-display fa-solid fa-hand-back-fist"></i>
+          <i class="ai-choice-display fa-solid fa-hand"></i>
+          <i class="ai-choice-display fa-solid fa-hand-scissors fa-rotate-90"></i>
+        </div>
+      </div>
+      <div class="game-container-footer d-flex relative">
+        <div class="container-footer-left d-flex ">
+          <button class="user-choice-btn text-shadow1">
+            <i class="fa-solid fa-hand-back-fist "></i>
+          </button>
+          <button class="user-choice-btn text-shadow1">
+            <i class="fa-solid fa-hand "></i>
+          </button>
+          <button class="user-choice-btn text-shadow1">
+            <i class="fa-solid fa-hand-scissors  fa-rotate-90 "></i>
+          </button>
+        </div>
+        <button class="reset absolute text-shadow1">
+          <i class="fa-solid fa-arrows-spin fa-spin"></i>
+        </button>
+        <div class="container-footer-right d-flex">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="assets/script/index-script.js"></script>
+</body>
+</html>
