@@ -165,6 +165,7 @@
   height: 10vh;
   background-color: rgba(94, 217, 117, 0.05);
   border-bottom: #5ED974 1px solid;
+  padding: 3rem 0;
 }
 .history-lose {
   display: flex;
@@ -174,7 +175,7 @@
   height: 10vh;
   background-color: rgba(240, 67, 67, 0.05);
   border-bottom: #f04343 1px solid;
-  
+  padding: 3rem 0;
 }
 .history-win {
   display: flex;
@@ -184,6 +185,7 @@
   height: 10vh;
   background-color: rgba(85, 73, 253, 0.05);
   border-bottom: #5549fd 1px solid;
+  padding: 3rem 0;
 }
 .history-icon-size {
   font-size: 5vw;
