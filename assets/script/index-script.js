@@ -38,6 +38,7 @@
 
 // history div
   let matchHistory = document.querySelector(`#matchHistory`);
+  let matchHistoryHeader = document.querySelector(`#matchHistoryHeader`);
 
 // user chose rock function
 function chooseRock () {

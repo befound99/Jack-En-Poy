@@ -47,6 +47,8 @@
   backdrop-filter: blur(4px);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.205));
   padding: 1rem;
+  position: sticky;
+  top: 2rem;
 }
 .game-container-header {
   width: 100%;
@@ -81,6 +83,10 @@
   text-shadow: 0 0 5px#5ED974;
   display: none !important;
   transition: all 0.1s ease;
+  transform: rotate(90deg);
+}
+.user-choice-display.fa-solid.fa-hand-scissors {
+  transform: rotate(180deg);
 }
 .versus {
   font-family: 'Montserrat', sans-serif;
@@ -118,7 +124,7 @@
   border: 0;
   height: fit-content;
   font-size: 5vw;
-  transition: all 0.1s ease;
+  transition: all 250ms ease;
 }
 .reset {
   font-size: 2vw;
@@ -126,7 +132,7 @@
   left: calc(50% - 1vw);
   background-color: transparent;
   border: 0;
-  transition: all 0.1s ease;
+  transition: all 250ms ease;
 }
 .game-container-footer button:hover {
   text-shadow: 0 0 20px #5ED974;
@@ -141,10 +147,12 @@
   border-radius: 20px;
   box-shadow: 0 0 20px #5ED974;
   border: 2px solid #5ED974;
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(10px);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.205));
   margin-top: 3rem;
   overflow: hidden;
+  position: sticky;
+  top: 0;
 }
 .history span {
   font-size: 4vmin;
